@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FeedbackOption } from "./FeedbackOption/FeedbackOption";
 import { Statistics } from "./Statistics/Statistics";
  import { Notification } from 'modules/Notification/Notification';
-const voteOptions = ["good", "neutral", "bad"];
+
 
 const Feedback = () => {
      const [votes, setVotes] = useState({
