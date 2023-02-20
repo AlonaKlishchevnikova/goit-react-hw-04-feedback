@@ -37,7 +37,7 @@ const Feedback = () => {
                     <h3>Please leave feedback</h3>
                      <FeedbackOption
                     leaveFeedback={leaveFeedback}
-                    options={voteOptions}
+                    options={Object.keys(votes)}
           ></FeedbackOption>
                
                  <div>
